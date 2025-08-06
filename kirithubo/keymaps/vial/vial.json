@@ -1,0 +1,97 @@
+{
+    "name": "kiritsubo",
+    "pid": "0x27DB",
+    "vid": "0x16C0",
+    "lighting": "vialrgb",
+    "encoder": "true",
+
+    "matrix": {
+        "rows": 4,
+        "cols": 10
+    },
+    "layers": {"enabled" : true,
+               "max": 5
+
+    },
+
+    "customKeycodes": [
+        {"name": "LED_PINK",
+            "title": "Set PINK",
+            "shortName": "PINK"
+        },
+
+        {"name": "LED_GREE",
+            "title": "Set GREEN",
+            "shortName": "GREE"
+        },
+
+        {"name": "LED_BLUE",
+            "title": "Set BLUE",
+            "shortName": "BLUE"
+        },
+
+
+        {"name": "LED_WHIT",
+            "title": "Set WHITE",
+            "shortName": "WHIT"
+        },
+
+        {"name": "LED_PURP",
+            "title": "Set PURPLE",
+            "shortName": "PURP"
+        },
+
+        {"name": "LED_RED",
+            "title": "Set RED",
+            "shortName": "RED"
+        },
+
+        {"name": "LED_YELL",
+            "title": "Set YELLOW",
+            "shortName": "YELL"
+        },
+
+        {"name": "LED_ORAN",
+            "title": "Set ORANGE",
+            "shortName": "ORAN"
+        },
+
+        {"name": "LED_CYAN",
+            "title": "Set CYAN",
+            "shortName": "CYAN"
+        },
+
+        {"name": "LED_MAGE",
+            "title": "Set MAGENTA",
+            "shortName": "MAGE"
+        },
+
+        {"name": "LED_GRAY",
+            "title": "Set GRAY",
+            "shortName": "GRAY"
+        }
+
+
+    ],
+
+
+
+    "encoder": {
+        "rotary": [
+                {"pin_a": "GP14", "pin_b": "GP15", "resolution":2}
+        ]
+    },
+
+    "layouts": {
+            "keymap": [
+                ["0,0","0,1","0,2","0,3","0,4",{"x":2},"0,5","0,6","0,7","0,8","0,9"],
+                ["1,0","1,1","1,2","1,3","1,4",{"x":2},"1,5","1,6","1,7","1,8","1,9"],
+                [{"y":-0.25,"x":5.5},"3,6"],
+                [{"y":-0.75},"2,0","2,1","2,2","2,3","2,4",{"x":2},"2,5","2,6","2,7","2,8","2,9"],
+                [{"y":-0.25,"x":5},"0,0\n\n\n\n\n\n\n\n\ne","0,1\n\n\n\n\n\n\n\n\ne"],
+                [{"y":-0.75,"x":1.25},"3,0",{"w2":1.25},"3,1",{"x":0.25,"w2":1.5},"3,2",{"x":2.5,"w2":1.5},"3,3",{"x":0.5,"w2":1.25},"3,4",{"x":0.25},"3,5"]
+
+
+ ]
+        }
+}
